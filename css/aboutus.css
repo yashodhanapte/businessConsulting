@@ -1,0 +1,254 @@
+.LeftAlign{
+    margin-left:30px;
+}
+#divSize{
+    height: 70%;
+     width:100%;
+     padding:20px 0px;
+}
+.alignment{
+    color:white;
+    padding:70px 150px 0px 120px;
+    text-align: justify;
+    background-color:DeepSkyBlue;
+    }
+.para{
+    font-size:90%
+}
+.img-overlay{
+position: absolute;
+right: 18%;
+top:20%;
+left:auto;
+z-index:3; 
+width:28% ;
+
+}
+.alignment1{
+    background-color:MediumPurple
+}
+@media screen and (max-width: 1150px) {
+.img-overlay{
+position: absolute;
+right:16%;
+top:21%;
+left:auto;
+z-index:3; 
+width:29%
+
+}
+.alignment{
+    width:100%;
+    
+    padding:50px 110px 0px 60px;
+    
+}
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+.img-overlay{
+position: absolute;
+right: 16%;
+top:25%;
+left:auto;
+z-index:3; 
+width:35%;
+
+}
+.alignment{
+    width:100%;
+    
+    padding:40px 140px 0px 40px;
+    
+}
+#divSize{
+    height: 75%;
+     width:100%;
+     padding:20px 0px;
+}
+
+
+}
+@media screen and (max-width: 700px) {
+.img-overlay{
+
+position: absolute;
+right: 11%;
+top:27%;
+left:auto;
+
+width:37%;
+
+
+}
+#divSize{
+    height: auto;
+     width:100%;
+}
+.alignment{
+    width:100%;
+    
+    padding:20px 115px 5px 28px;
+    
+}
+.alignment1{
+    width:100%;
+    
+    padding:20px 10px;
+    
+}
+
+
+}
+@media screen and (max-width: 575px) {
+.img-overlay{
+
+position: absolute;
+right: 12%;
+top:37%;
+left:auto;
+
+width:43%;
+
+
+}
+#divSize{
+    height: auto;
+     width:100%;
+}
+.alignment{
+    width:100%;
+    
+    padding:20px 30px 5px 30px;
+    
+}
+.alignment1{
+    width:100%;
+    height:25%;
+    padding:20px 10px;
+    
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+.img-overlay{
+
+position: absolute;
+right: 10%;
+top:40%;
+left:auto;
+width:50%;
+
+
+}
+#divSize{
+    height: auto;
+     width:100%;
+}
+.alignment{
+    width:100%;
+    
+    padding:20px 10px;
+    
+}
+.alignment1{
+    width:100%;
+    height:25%;
+    padding:20px 10px;
+    
+}
+
+
+}
+
+@media screen and (max-width: 414px) {
+.img-overlay{
+position: absolute;
+right: 10%;
+top:43%;
+left:auto;
+width:50%;
+
+
+}
+#divSize{
+    height: auto;
+     width:100%;
+}
+.alignment{
+    width:100%;
+    
+    padding:20px 10px;
+    
+}
+.alignment1{
+    width:100%;
+    height:15%;
+    padding:20px 10px;
+    
+}
+
+
+}
+@media screen and (max-width: 388px) {
+.img-overlay{
+position: absolute;
+right: 10%;
+top:49%;
+left:auto;
+width:50%;
+
+
+}
+#divSize{
+    height: auto;
+     width:100%;
+}
+.alignment{
+    width:100%;
+    
+    padding:20px 10px;
+    
+}
+.alignment1{
+    width:100%;
+    height:15%;
+    padding:20px 10px;
+    
+}
+
+
+}
+@media screen and (max-width: 327px) {
+.img-overlay{
+position: absolute;
+right: 10%;
+top:50%;
+left:auto;
+width:50%;
+
+
+}
+
+
+
+}
+@media screen and (max-width: 315px) {
+.img-overlay{
+position: absolute;
+right: 10%;
+top:58%;
+left:auto;
+width:50%;
+
+
+}
+
+
+
+}

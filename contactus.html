@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script src="js/image_slider.js"></script>
+	<script src="js/script.js"></script>
+
+
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/style_our.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<!-- <link rel="stylesheet" href="css/image_slider.css"> -->
+	<!-- <script src="js/modernizr.js"></script> Modernizr -->
+  	
+	<title>3D Rotating Navigation | CodyHouse</title>
+</head>
+<body>
+	<header class="cd-header">
+		<!-- <a href="#0" class="cd-logo"><img src="img/cd-logo.svg" alt="Logo"></a> -->
+		<a href="#0" class="cd-3d-nav-trigger" style="margin-top:11px;">
+			Menu
+			<span></span>
+		</a>
+	</header> <!-- .cd-header -->
+	
+	<main style="background-color:white;">
+	<script src="js/index.js"></script>
+  		<div class="container marginbottom30px">
+		<div class="row">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-8">
+			<div class="text-center"><h3>MESSAGE US</h3></div><hr style="width:3%;margin-top:-5px;">
+			<form> <!--method="post" action="sendmail.php"-->
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<form><input type="text" class="form-control" name="firstname" placeholder="Name*" id="fname" onblur="notempty1()" onkeypress="focusaftererror1()"></form>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<input type="text" required class="form-control" placeholder="Phone*" id="phone" onblur="notempty2()" onfocus="focusaftererror2()">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<form><input type="text" class="form-control" placeholder="Email*" id="email" onblur="notempty3()" onkeypress="focusaftererror3()"></form>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<input type="text" required class="form-control" placeholder="Subject*" id="subject" onblur="notempty4()" onfocus="focusaftererror4()">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="marginbottom30px">
+							<textarea rows="4" type="text" class="form-control" name="off_address" placeholder="Message us*" id="messageUs" onblur="notempty5()" onfocus="focusaftererror5()"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4 text-center" style="background-color:cyan;">
+						<a href="/docs/4.0/getting-started/download/" id="regbutton" class="btn btn-lg mb-3 mb-md-0 mr-md-3 originalcolor">SUBMIT NOW</a>
+						<!-- <input type="button" class="btn btn-success" value="Register"> -->
+					</div>
+					<div class="col-sm-4"></div>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<ng-view>
+		
+		
+	</ng-view>
+	<!-- form div container ends here -->
+
+	<!-- Contact details div starts here -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5" class="contactDetailsDivMarginTop">
+				<h1 class="marginbottom30px" style="color:#000;">CONTACT DETAILS</h1>
+				<div class="row">
+					<div class="col-xs-6">
+					<p>70 Bowman St.</p>
+					<p>South Windsor, CT 06074</p>
+					<p>Ph: +1526 252 452</p>
+					<p>Email: info@bpro.com</p>
+					</div>
+					<div class="col-xs-6">
+						<p><i class="fa fa-facebook-square fbIconColor" aria-hidden="true"></i><span style="margin-left:30px;">Facebook</span></p>
+
+						<p><i class="fa fa-twitter-square twitterIconColor" aria-hidden="true"></i><span style="margin-left:30px;">Twitter</span></p>
+
+						<p><i class="fa fa-google-plus-square googleIconColor" style="" aria-hidden="true"></i><span style="margin-left:30px;">Google+</span></p>
+						<p><i class="fa fa-linkedin-square linkedinIconColor" aria-hidden="true"></i><span style="margin-left:30px;">LinkedIn</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+	</main>
+	
+	<nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+			<li class="cd-selected">
+				<a href="index.html">Home</a>
+			</li>
+
+			<li>
+				<a href="#aboutUsDiv">About Us</a>
+			</li>
+
+			<li>
+				<a href="#0">Gallery</a>
+			</li>
+
+			<li>
+				<a href="#servicesDiv">Services</a>
+			</li>
+
+			<li>
+				<a href="contactus.html">Contact Us</a>
+			</li>
+		</ul> <!-- .cd-3d-nav -->
+
+		<!-- <span class="cd-marker color-1"></span>	 -->
+	</nav> <!-- .cd-3d-nav-container -->
+
+  <footer>
+	<div  id="d0" class="container">
+		<div class="row" id="d1">
+			<div class="col-sm-3" ><h1 class="headingText">Contact Us</h1>
+			
+			
+			<p>
+					<p class="grayColorText">Popularized in 1960s with the release of latest technology</p>
+					<p style="color:#fff">+1526 352 452
+					<a href="info@bpro.com" style="color:blue;margin-left:15px;"><u>info@bpro</u></a>
+					</p>
+					<a href="https://en-gb.facebook.com/login" class="fa fa-facebook-official socialMediaIcons" style=color:#4267b2></a>
+					<a href="https://plus.google.com/discover"  class="fa fa-google-plus-square socialMediaIcons" style=color:#db3236></a>
+					<a href="https://twitter.com/login"  class="fa fa-twitter-square socialMediaIcons" style=color:#1da1f2></a>
+				</p>
+			
+			</div>
+			
+			<div class="col-sm-3" ><h1 class="headingText">Navigations</h1>
+			<p class="grayColorText">Home</p>
+			<p class="grayColorText">About Us</p>
+			<p class="grayColorText">Services</p>
+			<p class="grayColorText">Gallery</p>
+			<p class="grayColorText">Testimonials</p>
+			<p class="grayColorText">Team></p>
+			
+			</div>
+			
+			<div class="col-sm-3" >
+			<h1 style="margin-bottom:90px"></h1>
+			<p class="grayColorText">FAQ</p>
+			<p class="grayColorText">Careers</p>
+			<p class="grayColorText">404</p>
+			<p class="grayColorText">Contact Us</p>
+			
+			</div>
+			
+			<div class="col-sm-3" ><h1 class="headingText">Subscribe Newsletter</h1>
+			
+				<p class="grayColorText">Enter your email address and subscribe to get our special offers to ur email address</p>
+			
+					<div class="row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" placeholder="Email address">
+						</div>
+						<div class="col-sm-2" >
+							<button type="button" class="btn btn-primary" style="float:left">Go</button>
+						</div>
+					</div>
+			</div>
+		</div>
+		
+		<div class="row" style="display:block;margin-top:40px">
+			<div id="d2" class="col-sm-12"><center>Brop:Business Consultancy &copy; 2017 All rights reserved!!!</center></div>
+	    </div>
+	</div>
+			
+	</footer>
+  <script async defer
+  		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjaaA0jflcxE293oRFQtLE6yLXy5PWiPk&callback=initMap">
+</script>
+<script type="text/javascript" src="lib/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+        $('.photo_slider').slick({
+            infinite: true,
+            speed: 900,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+       });
+        $('.photo_slider1').slick({
+            infinite: true,
+            speed: 900,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows:false
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows:false
+            }
+          }
+        ]
+       });
+    });
+</script>
+</body>
+</html>
